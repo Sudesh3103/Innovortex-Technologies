@@ -1586,6 +1586,13 @@ ul { list-style: none; }
   background-repeat: no-repeat;
   position: relative;
  }
+
+ .thumb-hotel { background-image: url(assets/img/projects/bookndstay.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+ }
 .thumb-vertex { background-image: url(assets/img/projects/vertex.png);
   background-size: contain;
   background-position: center center;
@@ -1593,7 +1600,43 @@ ul { list-style: none; }
   position: relative;
  }
 .thumb-vertex { background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); }
-.thumb-leadboost { background: linear-gradient(135deg, #f1f5f9 0%, #dbe4ee 100%); }
+.thumb-leadboost { background-image: url(assets/img/projects/leadboost.jpeg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+ }
+ .thumb-leadboost1 { background-image: url(assets/img/projects/leadboost2.jpeg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+ }
+.thumb-insta { background-image: url(assets/img/projects/insta.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+ }
+ .thumb-insta1 { background-image: url(assets/img/projects/insta1.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+ }
+ .thumb-insta2 { background-image: url(assets/img/projects/insta2.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+ }
+ .thumb-insta3 { background-image: url(assets/img/projects/insta3.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+ }
+
 .thumb-shoply { background: linear-gradient(135deg, #fef3e8 0%, #fdcfa9 100%); }
 
 .no-results { 
