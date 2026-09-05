@@ -63,6 +63,16 @@ ul { list-style: none; }
   width: auto;
 }
 
+.footer-logo-img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.brand-logo-visual {
+  object-fit: contain;
+}
+
 /* ============ Scrollbar ============ */
 ::-webkit-scrollbar { width: 10px; }
 ::-webkit-scrollbar-track { background: var(--bg-soft); }
@@ -471,6 +481,8 @@ ul { list-style: none; }
 
 /* Central logo SVG */
 .hero-logo-svg {
+  width: 180px;
+  height: 180px;
   position: relative;
   z-index: 5;
   filter: drop-shadow(0 25px 40px rgba(249, 88, 27, 0.35));
@@ -995,7 +1007,12 @@ ul { list-style: none; }
 }
 .cta-inner .eyebrow::before { background: #fff; box-shadow: 0 0 0 4px rgba(255,255,255,0.25); }
 .cta-brand { display: flex; align-items: center; gap: 14px; }
-.cta-brand svg { filter: drop-shadow(0 8px 16px rgba(0,0,0,0.2)); }
+.brand-logo-cta {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+  filter: brightness(0) invert(1) drop-shadow(0 8px 16px rgba(0,0,0,0.2));
+}
 
 /* ============ Footer ============ */
 .site-footer { 
@@ -1110,6 +1127,8 @@ ul { list-style: none; }
   50% { opacity: 1; transform: scale(1.12); }
 }
 .podium-logo {
+  width: 150px;
+  height: 150px;
   position: relative;
   z-index: 2;
   margin-bottom: -30px;
@@ -1711,6 +1730,8 @@ ul { list-style: none; }
   50% { opacity: 1; transform: scale(1.5); }
 }
 .globe-logo {
+  width: 110px;
+  height: 110px;
   position: relative;
   z-index: 2;
   filter: drop-shadow(0 20px 30px rgba(249, 88, 27, 0.35));
@@ -2054,7 +2075,7 @@ input:focus, select:focus, textarea:focus {
   .main-nav.open { max-height: 500px; opacity: 1; padding-top: 16px; }
   .main-nav a { padding: 12px 0; width: 100%; font-size: 1rem; }
   .main-nav > a::after { display: none; }
-  .dropdown-panel { position: static; opacity: 1; visibility: visible; transform: none; display: none; border: none; padding: 6px 0 0 16px; box-shadow: none; background: transparent; min-width: auto; }
+  .dropdown-panel { position: relative; opacity: 1; visibility: visible; transform: none; display: none; border: none; padding: 6px 0 0 16px; box-shadow: none; background: transparent; min-width: auto; }
   .nav-dropdown:hover .dropdown-panel { display: flex; }
   .btn-nav { display: none; }
   .nav-toggle { display: flex; }
