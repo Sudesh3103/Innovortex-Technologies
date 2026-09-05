@@ -1612,13 +1612,18 @@ ul { list-style: none; }
   background-repeat: no-repeat;
   position: relative;
  }
-.thumb-vertex { background-image: url(assets/img/projects/vertex.png);
+.thumb-vertex { background-image: url(assets/img/projects/graphic.png);
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
  }
-.thumb-vertex { background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); }
+.thumb-vertex { background-image: url(assets/img/projects/graphic.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+ }
 .thumb-leadboost { background-image: url(assets/img/projects/leadboost.jpeg);
   background-size: contain;
   background-position: center center;
